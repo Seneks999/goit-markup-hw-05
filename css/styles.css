@@ -679,10 +679,6 @@ ul {
   padding: 24px;
 }
 
-/* .backdrop:not(.is-open) .modal {
-  transform: translate(-50%, -50%) scale(1.5);
-} */
-
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
