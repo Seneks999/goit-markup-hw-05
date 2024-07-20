@@ -842,7 +842,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
   align-items: center;
 }
 
@@ -872,10 +871,7 @@ ul {
 }
 
 .modal-check:checked + .checkbox-label .checkbox-span {
-  width: 16px;
-  height: 16px;
   background-color: var(--checked-background-color);
   border: none;
   fill: var(--checked-fill-color);
-  display: inline-flex;
 }
