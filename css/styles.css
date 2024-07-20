@@ -727,8 +727,7 @@ ul {
 }
 
 .modal-field {
-  /* margin-bottom: 16px; */
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .label-input-modal {
@@ -867,7 +866,7 @@ ul {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -880,4 +879,5 @@ ul {
   background-color: var(--checked-background-color);
   border: none;
   fill: var(--checked-fill-color);
+  display: inline-flex;
 }
