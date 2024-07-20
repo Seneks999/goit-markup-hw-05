@@ -727,7 +727,7 @@ ul {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .label-input-modal {
@@ -839,9 +839,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  /* gap: 16px; */
 }
 
 :root {
