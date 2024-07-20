@@ -690,7 +690,6 @@ ul {
   background-color: #e7e9fc;
   width: 24px;
   height: 24px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -709,6 +708,7 @@ ul {
 
 .button-modal-icon {
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-modal:hover .button-modal-icon,
@@ -727,7 +727,7 @@ ul {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .label-input-modal {
@@ -841,7 +841,7 @@ ul {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
 }
 
 :root {
@@ -851,14 +851,15 @@ ul {
 .link-underline {
   text-decoration: underline;
   color: var(--link-color);
+  margin-left: 4px;
 }
 
 .checkbox-span {
   width: 16px;
+  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
 }
 
 .checkbox-label .checkbox-span {
@@ -870,6 +871,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-check:checked + .checkbox-label .checkbox-span {
